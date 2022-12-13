@@ -14,7 +14,7 @@ io.on('connection', (socket) => {
         cpu: os.loadavg()
       });
     }, 1000);
-  });
+});
 
 //conexion al servidor
 app.listen(3000, () => console.log('server started'));
